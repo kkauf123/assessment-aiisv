@@ -1,7 +1,7 @@
 /* assessment.aiisv.org — site settings. Fill these in during setup (see SETUP.md). */
 window.AIISV_CONFIG = {
   // The Apps Script web app URL (ends in /exec) from SETUP.md step 3.
-  API_URL: '',
+  API_URL: 'https://script.google.com/macros/s/AKfycbxTq2YdV8q3FPRHxVui3oxAP6rvsLxYxjqOspTGZBYJyTtou4DHwmm5nd8BnbWNlE6_Ng/exec',
   // Cloudflare Turnstile site key (optional but recommended, SETUP.md step 5). Leave '' to turn off.
   TURNSTILE_SITEKEY: ''
 };
