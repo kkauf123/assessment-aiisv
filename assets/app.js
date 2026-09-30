@@ -79,7 +79,7 @@
       document.getElementById('code-start').href = data.startUrl;
       document.getElementById('code-note').textContent = data.existing
         ? 'You already have a code for this email, so here it is again. We’ve re-sent it to your inbox too.'
-        : 'We’ve also emailed this code to you from info@aiisv.org, with a one-click link to begin.';
+        : 'We’ve also emailed this code to you, with a one-click link to begin.';
       codeForm.hidden = true; result.hidden = false;
       set('sessionStorage', CODE_KEY, JSON.stringify(data));
       var h = result.querySelector('[tabindex="-1"]'); if (h) h.focus();
