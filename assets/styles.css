@@ -200,3 +200,5 @@ section{padding-block:clamp(64px,8vw,112px)}
 .panel .eyebrow{color:var(--teal)}
 @media (max-width:1000px){.gate .consent{order:4}.gate .btn{order:5}.gate .ts{order:6}}
 @media (max-width:480px){.brand span{display:none}.nav .btn{white-space:nowrap}}
+
+.finep{margin:10px 0 0 32px;font-size:12px;line-height:1.5;color:var(--muted-2)}
