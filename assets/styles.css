@@ -202,3 +202,11 @@ section{padding-block:clamp(64px,8vw,112px)}
 @media (max-width:480px){.brand span{display:none}.nav .btn{white-space:nowrap}}
 
 .finep{margin:10px 0 0 32px;font-size:12px;line-height:1.5;color:var(--muted-2)}
+
+/* access.aiisv.org links (2026-10-02) */
+.nav a.nav-code{color:var(--gold);font-weight:600}
+.nav a.nav-code:hover{color:#F5D46E}
+@media (max-width:900px){.nav a.nav-code{display:inline}}
+@media (max-width:620px){.nav a.nav-code{display:none}}
+.have-code{font-size:15px;color:var(--on-dark)}
+.dark .have-code a{color:var(--gold);font-weight:600}
